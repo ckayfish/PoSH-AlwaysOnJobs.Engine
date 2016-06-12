@@ -1,0 +1,1 @@
+If this file is copied to dest folders, sync is working.
