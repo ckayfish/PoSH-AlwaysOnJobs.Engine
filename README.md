@@ -55,27 +55,26 @@ Jenkins Job, Windows Scheduled Task, create a service, etc. Tell us how you like
 --- Job Names must be unique.
 
 
-     <job>
-        <name>Sync Folders - Sample</name>
-        <description>Example of sync'ing relative folders. UNC or FullPaths also accepted</description>
-        <fileName>syncDirectory.ps1</fileName>
-        <active>TRUE</active>
-        <params>
-            <param>
-               <pname>sourceDir</pname>
-               <pvalue>"..\Sync Test\Source"</pvalue>
-            </param>
-            <param>
-               <pname>destDirsCsv</pname>
-               <pvalue>"..\Sync Test\Dest1,..\Sync Test\Dest2"</pvalue>
-            </param>
-            <param>
-               <pname>pause</pname>
-               <pvalue>3</pvalue>
-            </param>
-        </params>
-     </job>
-
+>     <job>
+>        <name>Sync Folders - Sample</name>
+>        <description>Example of sync'ing relative folders. UNC or FullPaths also accepted</description>
+>        <fileName>syncDirectory.ps1</fileName>
+>        <active>TRUE</active>
+>        <params>
+>            <param>
+>               <pname>sourceDir</pname>
+>               <pvalue>"..\Sync Test\Source"</pvalue>
+>            </param>
+>            <param>
+>               <pname>destDirsCsv</pname>
+>               <pvalue>"..\Sync Test\Dest1,..\Sync Test\Dest2"</pvalue>
+>            </param>
+>            <param>
+>               <pname>pause</pname>
+>               <pvalue>3</pvalue>
+>            </param>
+>        </params>
+>     </job>
 
 vvvvvvvvvvvvvvvvvvvvvvvvv
 
