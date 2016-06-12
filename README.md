@@ -55,7 +55,7 @@ Jenkins Job, Windows Scheduled Task, create a service, etc. Tell us how you like
 --- Job Names must be unique.
 
 
-    <job>
+     <job>
         <name>Sync Folders - Sample</name>
         <description>Example of sync'ing relative folders. UNC or FullPaths also accepted</description>
         <fileName>syncDirectory.ps1</fileName>
@@ -74,8 +74,9 @@ Jenkins Job, Windows Scheduled Task, create a service, etc. Tell us how you like
                <pvalue>3</pvalue>
             </param>
         </params>
-    </job>
-    
+     </job>
+
+
 vvvvvvvvvvvvvvvvvvvvvvvvv
 
 More to come. Comments can be added here or (for now) sent directly to me, Curtis, at ckayfish@gmail.com
