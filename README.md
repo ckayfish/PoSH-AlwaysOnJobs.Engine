@@ -41,12 +41,17 @@ Jenkins Job, Windows Scheduled Task, create a service, etc. Tell us how you like
 
 ## Package Description
 
-- .\AOJobs.Engine\              # Service Root
-- .\AOJobs.Engine\readme.md     # This file
-- .\AOJobs.Engine\App Root\     # Core Engine
-- .\AOJobs.Engine\Job Files\    # ps1 PoSH scripts 
-- .\AOJobs.Engine\Log Files\    # Default location for all log files
-- .\AOJobs.Engine\Sync Test\    # Used for example of sync'ing director paths
+- .\AOJobs.Engine\                                    # Service Root
+- .\AOJobs.Engine\readme.md                           # This file you're reading
+- .\AOJobs.Engine\App Root\                           # Core Engine Directory
+- .\AOJobs.Engine\App Root\AOJobs.Engine.Main.ps1     # Core Engine Main entry point
+- .\AOJobs.Engine\App Root\AOJobs.Engine.Library.ps1  # Core Engine funciton library
+- .\AOJobs.Engine\App Root\application.config         # Core Engine config file
+- .\AOJobs.Engine\Job Files\                          # Job/Script Directory
+- .\AOJobs.Engine\Job Files\syncDirectory.ps1         # Sample script that performs file system replication 
+- .\AOJobs.Engine\Job Files\testCounter1.ps1          # Sammple script - basic use case
+- .\AOJobs.Engine\Log Files\                          # Default location for all log files
+- .\AOJobs.Engine\Sync Test\                          # Used for example of sync'ing director paths
  
 ## Creating your Own Job
  1. Write your ps1 script file
